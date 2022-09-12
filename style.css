@@ -202,3 +202,161 @@
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
   }
+
+  /* Start : Media-Querries */
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1093px) {
+    .divider {
+      top: 1140px;
+    }
+  }
+  
+  @media only screen and (min-width: 1093px) and (max-width: 1324px) {
+    .divider {
+      top: 1110px;
+    }
+  }
+  
+  @media only screen and (min-width: 1324px) and (max-width: 1700px) {
+    .divider {
+      top: 1100px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 200px) and (max-width : 480px) {
+  
+    .carousel-item {
+      height: 20em;
+    }
+  
+    .carousel-item>img {
+      height: 15em;
+      width: 100%;
+      margin-top: 5em;
+    }
+  
+    .title-h1 {
+      padding-bottom: 17%;
+  
+    }
+  
+    h4.font-size {
+      font-size: 16px;
+    }
+  
+    .card-img-top {
+      height: 10em;
+    }
+  
+    .card-text {
+      font-size: 15px;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width : 750px) {
+    .carousel-item {
+      height: 25em;
+    }
+  
+    .carousel-item>img {
+      height: 22em;
+      width: 100%;
+      margin-top: 5em;
+    }
+  
+    h4.font-size {
+      font-size: 18px;
+    }
+  
+    h3.font-size {
+      font-size: 18px;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 750px) and (max-width : 905px) {
+  
+    .carousel-item {
+      height: 28em;
+    }
+  
+    .carousel-item>img {
+      height: 30em;
+      width: 100%;
+      margin-top: 5em;
+    }
+  
+    h4.font-size {
+      font-size: 18px;
+    }
+  
+    h3.font-size {
+      font-size: 18px;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 905px) and (max-width : 1200px) {
+  
+    .carousel-item {
+      height: 35em;
+    }
+  
+    .carousel-item>img {
+      height: 30em;
+      width: 100%;
+      margin-top: 5em;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 300px) and (max-width : 500px) {
+    div.banner-event {
+      margin-top: 13%;
+      height: 40em;
+  
+    }
+  
+    .title_h1 {
+      padding-top: 13%;
+      font-size: 20px;
+  
+    }
+  
+    .title-h2 {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (min-width: 500px) and (max-width : 900px) {
+    div.banner-event {
+      margin-top: 6%;
+      height: 50em;
+  
+    }
+  
+    .title_h1 {
+      padding-top: 10%;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) and (max-width : 1199px) {
+  
+    .title_h1 {
+      padding-top: 4%;
+    }
+  }
+  
+  @media only screen and (min-width: 1350px) {
+    .title_h1 {
+      padding-top: 25px;
+    }
+  
+  }
+  
+  
+  /* End : Media-Querries */
